@@ -1,1 +1,4 @@
-
+FROM bldr
+RUN npm install easy-sauce
+RUN npm audit fix
+RUN npm test
